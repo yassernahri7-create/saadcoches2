@@ -1,0 +1,57 @@
+services:
+  website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: website-production
+    image: nourcoches-website:latest
+    restart: unless-stopped
+    command: node website-server.cjs
+    environment:
+      - NODE_ENV=production
+      - PORT=${WEBSITE_PORT:-3003}
+      - DATA_FILE=${DATA_FILE:-/app/storage/db.json}
+      - UPLOADS_DIR=${UPLOADS_DIR:-/app/storage/uploads}
+      - DEV_FRONTEND_URL=${DEV_FRONTEND_URL:-http://localhost:5173}
+      - ADMIN_DOMAIN=${ADMIN_DOMAIN:-admin.nourcoches.ibnbatoutaweb.com}
+    ports:
+      - "${WEBSITE_PORT:-3003}:${WEBSITE_PORT:-3003}"
+    volumes:
+      - app_storage:/app/storage
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:${WEBSITE_PORT:-3003}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: admin-production
+    image: nourcoches-admin:latest
+    restart: unless-stopped
+    command: node admin-server.cjs
+    environment:
+      - NODE_ENV=production
+      - PORT=${ADMIN_PORT:-3103}
+      - DATA_FILE=${DATA_FILE:-/app/storage/db.json}
+      - UPLOADS_DIR=${UPLOADS_DIR:-/app/storage/uploads}
+      - DEV_FRONTEND_URL=${DEV_FRONTEND_URL:-http://localhost:5173}
+      - ADMIN_USER=${ADMIN_USER:-admin}
+      - ADMIN_PASS=${ADMIN_PASS:-change-me-now}
+      - COOKIE_SECURE=${COOKIE_SECURE:-true}
+    ports:
+      - "${ADMIN_PORT:-3103}:${ADMIN_PORT:-3103}"
+    volumes:
+      - app_storage:/app/storage
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:${ADMIN_PORT:-3103}/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+volumes:
+  app_storage:

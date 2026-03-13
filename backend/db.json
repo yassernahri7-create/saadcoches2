@@ -1,0 +1,969 @@
+{
+  "phones": {
+    "phone1": "+212000000000",
+    "phone2": "+212643468996",
+    "phone3": "+212643468996"
+  },
+  "fleet": [
+    {
+      "id": 1773002443499,
+      "name": {
+        "ar": "opel astra ",
+        "fr": "opel astra",
+        "en": "New"
+      },
+      "price": 300,
+      "img": "/uploads/1773002460844-whatsapp_image_2026-03-06_at_16.41.01_2.jpeg",
+      "specs": [],
+      "count": 1,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "opel-astra"
+    },
+    {
+      "id": 1771958808456,
+      "name": {
+        "ar": "كوبرا فورمينتور",
+        "fr": "Cupra Formentor",
+        "en": "Cupra Formentor"
+      },
+      "subtitle": {
+        "ar": "SUV فاخرة بسقف بانورامي",
+        "fr": "SUV Luxe Panoramique",
+        "en": "Luxury Panoramic SUV"
+      },
+      "category": "فخمة",
+      "badge": "👑 مميزة",
+      "price": 550,
+      "img": "/uploads/1771958820718-Capture_d'Ã©cran_2026-02-24_184632.png",
+      "color": "#d4af37",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "count": 7,
+      "fuel": "both",
+      "images": [
+        "/uploads/1771988207716-Capture_d'Ã©cran_2026-02-25_022055.png",
+        "/uploads/1772999181685-screenshot_45.png"
+      ],
+      "places": 5,
+      "valises": 4,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "cupra-formentor"
+    },
+    {
+      "id": 101,
+      "name": {
+        "ar": "كيا بيكانتو",
+        "fr": "Kia Picanto",
+        "en": "Kia Picanto"
+      },
+      "subtitle": {
+        "ar": "اقتصادية وشعبية بامتياز",
+        "fr": "Économique et populaire",
+        "en": "Economic and popular"
+      },
+      "category": "سيارة ترويجية",
+      "price": 298,
+      "img": "/uploads/1771792668421-Screenshot_63.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#dc2626",
+      "badge": "💰 اقتصادية",
+      "count": 5,
+      "fuel": "both",
+      "places": 4,
+      "valises": 2,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "kia-picanto"
+    },
+    {
+      "id": 102,
+      "name": {
+        "ar": "فيات 500",
+        "fr": "Fiat 500",
+        "en": "Fiat 500"
+      },
+      "subtitle": {
+        "ar": "أيقونة الأناقة الإيطالية",
+        "fr": "Icône de l'élégance italienne",
+        "en": "Italian style icon"
+      },
+      "category": "سيارة ترويجية",
+      "price": 250,
+      "img": "/uploads/1771957447823-ChatGPT_Image_24_fÃ©vr._2026,_18_23_53.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#facc15",
+      "images": [
+        "/uploads/1771992170334-Screenshot_27.png"
+      ],
+      "badge": "⭐ الأكثر إيجاراً",
+      "count": 4,
+      "fuel": "petrol",
+      "places": 4,
+      "valises": 2,
+      "portes": 3,
+      "clim": "A/C",
+      "slug": "fiat-500"
+    },
+    {
+      "id": 1771794312740,
+      "name": {
+        "ar": "داسيا لوجان 2026",
+        "fr": "Dacia Logan 2026",
+        "en": "Dacia Logan 2026"
+      },
+      "subtitle": {
+        "ar": "نجمة المدينة المفضلة",
+        "fr": "Star de la ville",
+        "en": "City star"
+      },
+      "category": "اقتصادية",
+      "badge": "⭐ الأكثر إيجاراً",
+      "price": 240,
+      "img": "/uploads/1771794376456-Screenshot_67.png",
+      "color": "#d4af37",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "count": 10,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "dacia-logan-2026"
+    },
+    {
+      "id": 6,
+      "name": {
+        "ar": "رينو كليو 5",
+        "fr": "Renault Clio 5",
+        "en": "Renault Clio 5"
+      },
+      "subtitle": {
+        "ar": "أناقة فرنسية في كل طريق",
+        "fr": "Élégance française",
+        "en": "French elegance"
+      },
+      "category": "اقتصادية",
+      "badge": "⭐ الأكثر إيجاراً",
+      "price": 300,
+      "img": "/uploads/1772160409677-screenshot_53.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#eab308",
+      "images": [
+        "/uploads/1772160681932-screenshot_54.png",
+        "/uploads/1772160696038-screenshot_58.png"
+      ],
+      "count": 15,
+      "fuel": "both",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "renault-clio-5"
+    },
+    {
+      "id": 7,
+      "name": {
+        "ar": "أوبل كورسا",
+        "fr": "Opel Corsa",
+        "en": "Opel Corsa"
+      },
+      "subtitle": {
+        "ar": "مدمجة ورشيقية جداً",
+        "fr": "Compacte et agile",
+        "en": "Compact and agile"
+      },
+      "category": "مدينة",
+      "badge": "🏙️ حضرية",
+      "price": 350,
+      "img": "/uploads/1771792498188-Screenshot_62.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#ec4899",
+      "count": 4,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "opel-corsa"
+    },
+    {
+      "id": 8,
+      "name": {
+        "ar": "داسيا داستر",
+        "fr": "Dacia Duster",
+        "en": "Dacia Duster"
+      },
+      "subtitle": {
+        "ar": "قوية ومناسبة لكل التضاريس",
+        "fr": "Robuste et polyvalente",
+        "en": "Robust and versatile"
+      },
+      "category": "SUV",
+      "badge": "💰 اقتصادية",
+      "price": 250,
+      "img": "/uploads/1772160624075-screenshot_30.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#14b8a6",
+      "images": [
+        "/uploads/1772160630903-screenshot_31.png",
+        "/uploads/1772160647101-screenshot_29.png",
+        "/uploads/1772160652302-screenshot_28.png"
+      ],
+      "count": 5,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 4,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "dacia-duster"
+    },
+    {
+      "id": 1771792773002,
+      "name": {
+        "ar": "داسيا سانديرو 2026",
+        "fr": "Dacia Sandero 2026",
+        "en": "Dacia Sandero 2026"
+      },
+      "subtitle": {
+        "ar": "عصرية وعملية للمدينة",
+        "fr": "Moderne et pratique",
+        "en": "Modern and practical"
+      },
+      "category": "اقتصادية",
+      "badge": "⭐ الأكثر إيجاراً",
+      "price": 250,
+      "img": "/uploads/1771792890450-Screenshot_66.png",
+      "color": "#d4af37",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "count": 2,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 4,
+      "portes": 5,
+      "clim": "A/C",
+      "images": [
+        "/uploads/1772160596218-screenshot_35.png",
+        "/uploads/1772160602923-screenshot_36.png"
+      ],
+      "slug": "dacia-sandero-2026"
+    },
+    {
+      "id": 5,
+      "name": {
+        "ar": "بيجو 208",
+        "fr": "Peugeot 208",
+        "en": "Peugeot 208"
+      },
+      "subtitle": {
+        "ar": "تصميم فريد وجذاب للغاية",
+        "fr": "Design captivant",
+        "en": "Captivating design"
+      },
+      "category": "مدينة",
+      "badge": "✨ تصميم فاخر",
+      "price": 300,
+      "img": "/uploads/1771957324611-Screenshot_49.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#d4af37",
+      "images": [
+        "/uploads/1772160564595-screenshot_40.png",
+        "/uploads/1772160579854-screenshot_43.png"
+      ],
+      "count": 10,
+      "fuel": "both",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "Climatisé",
+      "slug": "peugeot-208"
+    },
+    {
+      "id": 4,
+      "name": {
+        "ar": "سيات ليون",
+        "fr": "Seat Leon",
+        "en": "Seat Leon"
+      },
+      "subtitle": {
+        "ar": "رياضية وجريئة على الطريق",
+        "fr": "Sportive et audacieuse",
+        "en": "Sporty and bold"
+      },
+      "category": "مدمجة",
+      "badge": "⚡ رياضية",
+      "price": 350,
+      "img": "/uploads/1771792622058-Screenshot_64.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#c2410c",
+      "count": 5,
+      "fuel": "both",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "seat-leon"
+    },
+    {
+      "id": 1771812063637,
+      "name": {
+        "ar": "هيونداي أكسنت",
+        "fr": "Hyundai Accent",
+        "en": "Hyundai Accent"
+      },
+      "subtitle": {
+        "ar": "أناقة السيدان والراحة التامة",
+        "fr": "Élégance et confort",
+        "en": "Elegance and comfort"
+      },
+      "category": "سيدان",
+      "badge": "✨ فل أوبسيون",
+      "price": 350,
+      "img": "/uploads/1771814554209-Screenshot_74.png",
+      "color": "#1d4ed8",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "count": 10,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "hyundai-accent"
+    },
+    {
+      "id": 3,
+      "name": {
+        "ar": "فولكس فاجن تي-روك",
+        "fr": "VW T-Roc",
+        "en": "VW T-Roc"
+      },
+      "subtitle": {
+        "ar": "سيارة دفع رباعي مدمجة",
+        "fr": "SUV compact dynamique",
+        "en": "Dynamic compact SUV"
+      },
+      "category": "SUV",
+      "badge": "🔥 الأكثر طلباً",
+      "price": 400,
+      "img": "/uploads/1771792311245-Screenshot_60.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#2563eb",
+      "count": 5,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "vw-t-roc"
+    },
+    {
+      "id": 1771812146225,
+      "name": {
+        "ar": "هيونداي i30",
+        "fr": "Hyundai i30",
+        "en": "Hyundai i30"
+      },
+      "subtitle": {
+        "ar": "سيارة المدينة الكاملة",
+        "fr": "Compacte Premium",
+        "en": "Premium Compact"
+      },
+      "category": "مدينة فاخرة",
+      "badge": "⚙️ فل أوبسيون",
+      "price": 400,
+      "img": "/uploads/1771814562309-Screenshot_73.png",
+      "color": "#3b82f6",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "count": 5,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "Climatisé",
+      "slug": "hyundai-i30"
+    },
+    {
+      "id": 2,
+      "name": {
+        "ar": "أودي A3 سبورت باك",
+        "fr": "Audi A3 Sportback",
+        "en": "Audi A3 Sportback"
+      },
+      "subtitle": {
+        "ar": "التكنولوجيا الألمانية الفاخرة",
+        "fr": "Technologie allemande",
+        "en": "German technology"
+      },
+      "category": "رياضية",
+      "badge": "🇩🇪 ألماني",
+      "price": 550,
+      "img": "/uploads/1771792350251-Screenshot_61.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#7c3aed",
+      "count": 2,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "audi-a3-sportback"
+    },
+    {
+      "id": 1771812095173,
+      "name": {
+        "ar": "هيونداي توكسون 2026",
+        "fr": "Hyundai Tucson 2026",
+        "en": "Hyundai Tucson 2026"
+      },
+      "subtitle": {
+        "ar": "SUV فاخرة بسقف بانورامي",
+        "fr": "SUV Luxe Panoramique",
+        "en": "Luxury Panoramic SUV"
+      },
+      "category": "SUV فاخرة",
+      "badge": "🌟 جديد 2026",
+      "price": 800,
+      "img": "/uploads/1771814171898-Screenshot_72.png",
+      "color": "#6366f1",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "count": 3,
+      "fuel": "diesel",
+      "clim": "A/C",
+      "places": 5,
+      "valises": 4,
+      "portes": 4,
+      "slug": "hyundai-tucson-2026"
+    },
+    {
+      "id": 1,
+      "name": {
+        "ar": "رينج روفر سبورت",
+        "fr": "Range Rover Sport",
+        "en": "Range Rover Sport"
+      },
+      "subtitle": {
+        "ar": "ملك سيارات الدفع الرباعي",
+        "fr": "Le Roi des SUV",
+        "en": "The King of SUVs"
+      },
+      "category": "Luxury",
+      "badge": "👑 مميزة",
+      "price": 1200,
+      "img": "/uploads/1771792736226-Screenshot_65.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتوماتيك"
+        },
+        {
+          "label": "الأمان",
+          "value": "VIP"
+        }
+      ],
+      "color": "#059669",
+      "count": 2,
+      "fuel": "diesel",
+      "places": 6,
+      "valises": 4,
+      "portes": 5,
+      "clim": "A/C",
+      "slug": "range-rover-sport"
+    }
+  ],
+  "promoCars": [
+    {
+      "id": 1773005006310,
+      "name": {
+        "ar": "opel astra ",
+        "fr": "opel astra",
+        "en": "New"
+      },
+      "price": 150,
+      "img": "/uploads/1773002460844-whatsapp_image_2026-03-06_at_16.41.01_2.jpeg",
+      "specs": [],
+      "count": 1,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "images": [],
+      "slug": "opel-astra"
+    },
+    {
+      "id": 1773005010195,
+      "name": {
+        "ar": "كيا بيكانتو",
+        "fr": "Kia Picanto",
+        "en": "Kia Picanto"
+      },
+      "subtitle": {
+        "ar": "اقتصادية وشعبية بامتياز",
+        "fr": "Économique et populaire",
+        "en": "Economic and popular"
+      },
+      "category": "سيارة ترويجية",
+      "price": 298,
+      "img": "/uploads/1771792668421-Screenshot_63.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#dc2626",
+      "badge": "💰 اقتصادية",
+      "count": 5,
+      "fuel": "both",
+      "places": 4,
+      "valises": 2,
+      "portes": 5,
+      "clim": "A/C",
+      "images": [],
+      "slug": "kia-picanto"
+    },
+    {
+      "id": 1773005013964,
+      "name": {
+        "ar": "داسيا سانديرو 2026",
+        "fr": "Dacia Sandero 2026",
+        "en": "Dacia Sandero 2026"
+      },
+      "subtitle": {
+        "ar": "عصرية وعملية للمدينة",
+        "fr": "Moderne et pratique",
+        "en": "Modern and practical"
+      },
+      "category": "اقتصادية",
+      "badge": "⭐ الأكثر إيجاراً",
+      "price": 250,
+      "img": "/uploads/1771792890450-Screenshot_66.png",
+      "color": "#d4af37",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "count": 2,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 4,
+      "portes": 5,
+      "clim": "A/C",
+      "images": [
+        "/uploads/1772160596218-screenshot_35.png",
+        "/uploads/1772160602923-screenshot_36.png"
+      ],
+      "slug": "dacia-sandero-2026"
+    },
+    {
+      "id": 1773005018191,
+      "name": {
+        "ar": "فولكس فاجن تي-روك",
+        "fr": "VW T-Roc",
+        "en": "VW T-Roc"
+      },
+      "subtitle": {
+        "ar": "سيارة دفع رباعي مدمجة",
+        "fr": "SUV compact dynamique",
+        "en": "Dynamic compact SUV"
+      },
+      "category": "SUV",
+      "badge": "🔥 الأكثر طلباً",
+      "price": 400,
+      "img": "/uploads/1771792311245-Screenshot_60.png",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "color": "#2563eb",
+      "count": 5,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "images": [],
+      "slug": "vw-t-roc"
+    }
+  ],
+  "carsForSale": [
+    {
+      "id": 1772739306190.4082,
+      "name": {
+        "ar": "كوبرا فورمينتور",
+        "fr": "Cupra Formentor",
+        "en": "Cupra Formentor"
+      },
+      "subtitle": {
+        "ar": "SUV فاخرة بسقف بانورامي",
+        "fr": "SUV Luxe Panoramique",
+        "en": "Luxury Panoramic SUV"
+      },
+      "img": "/uploads/1771958820718-Capture_d'Ã©cran_2026-02-24_184632.png",
+      "images": [
+        "/uploads/1771988207716-Capture_d'Ã©cran_2026-02-25_022055.png"
+      ],
+      "salePrice": 216000,
+      "km": 0,
+      "year": 2026,
+      "fuel": "both",
+      "transmission": "manual",
+      "condition": "excellent",
+      "engineSize": "",
+      "firstOwner": true,
+      "technicalControl": true,
+      "description": {
+        "ar": "",
+        "fr": "",
+        "en": ""
+      },
+      "color": "#d4af37",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "places": 5,
+      "portes": 5,
+      "slug": "cupra-formentor"
+    },
+    {
+      "id": 1772739312739.8933,
+      "name": {
+        "ar": "كيا بيكانتو",
+        "fr": "Kia Picanto",
+        "en": "Kia Picanto"
+      },
+      "subtitle": {
+        "ar": "اقتصادية وشعبية بامتياز",
+        "fr": "Économique et populaire",
+        "en": "Economic and popular"
+      },
+      "img": "/uploads/1771792668421-Screenshot_63.png",
+      "images": [],
+      "salePrice": 90000,
+      "km": 250000,
+      "year": 2026,
+      "fuel": "both",
+      "transmission": "manual",
+      "condition": "excellent",
+      "engineSize": "",
+      "firstOwner": true,
+      "technicalControl": true,
+      "description": {
+        "ar": "",
+        "fr": "",
+        "en": ""
+      },
+      "color": "#dc2626",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "places": 4,
+      "portes": 5,
+      "slug": "kia-picanto"
+    },
+    {
+      "id": 1772739317591.0872,
+      "name": {
+        "ar": "فيات 500",
+        "fr": "Fiat 500",
+        "en": "Fiat 500"
+      },
+      "subtitle": {
+        "ar": "أيقونة الأناقة الإيطالية",
+        "fr": "Icône de l'élégance italienne",
+        "en": "Italian style icon"
+      },
+      "img": "/uploads/1771957447823-ChatGPT_Image_24_fÃ©vr._2026,_18_23_53.png",
+      "images": [
+        "/uploads/1771992170334-Screenshot_27.png"
+      ],
+      "salePrice": 90000,
+      "km": 0,
+      "year": 2026,
+      "fuel": "petrol",
+      "transmission": "manual",
+      "condition": "excellent",
+      "engineSize": "",
+      "firstOwner": true,
+      "technicalControl": true,
+      "description": {
+        "ar": "",
+        "fr": "",
+        "en": ""
+      },
+      "color": "#facc15",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "أوتو/يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "places": 4,
+      "portes": 3,
+      "slug": "fiat-500"
+    },
+    {
+      "id": 1772739321590.8926,
+      "name": {
+        "ar": "داسيا لوجان 2026",
+        "fr": "Dacia Logan 2026",
+        "en": "Dacia Logan 2026"
+      },
+      "subtitle": {
+        "ar": "نجمة المدينة المفضلة",
+        "fr": "Star de la ville",
+        "en": "City star"
+      },
+      "img": "/uploads/1771794376456-Screenshot_67.png",
+      "images": [],
+      "salePrice": 86400,
+      "km": 0,
+      "year": 2026,
+      "fuel": "diesel",
+      "transmission": "manual",
+      "condition": "excellent",
+      "engineSize": "",
+      "firstOwner": true,
+      "technicalControl": true,
+      "description": {
+        "ar": "",
+        "fr": "",
+        "en": ""
+      },
+      "color": "#d4af37",
+      "specs": [
+        {
+          "label": "الناقل",
+          "value": "يدوي"
+        },
+        {
+          "label": "الأمان",
+          "value": "ABS/ESP"
+        }
+      ],
+      "places": 5,
+      "portes": 5,
+      "slug": "dacia-logan-2026"
+    },
+    {
+      "id": 1773002535597,
+      "name": {
+        "ar": "opel astra ",
+        "fr": "opel astra",
+        "en": "New"
+      },
+      "price": 150,
+      "img": "/uploads/1773002460844-whatsapp_image_2026-03-06_at_16.41.01_2.jpeg",
+      "specs": [],
+      "count": 1,
+      "fuel": "diesel",
+      "places": 5,
+      "valises": 3,
+      "portes": 5,
+      "clim": "A/C",
+      "salePrice": 45000,
+      "km": 0,
+      "year": 2024,
+      "images": [],
+      "slug": "opel-astra"
+    }
+  ],
+  "socialLinks": {
+    "facebook": "",
+    "instagram": "https://www.instagram.com/rrice_cafe_restaurant?igsh=MTlkdDRybHdoNTBkeg%3D%3D",
+    "whatsapp": "0717430045"
+  },
+  "posts": [
+    {
+      "id": 1741744578001,
+      "slug": "location-voiture-tanger-guide-complet",
+      "title": "Location de Voiture à Tanger : Le Guide Complet 2025",
+      "excerpt": "Tout ce que vous devez savoir pour louer une voiture à Tanger — prix, conseils, meilleures agences et itinéraires incontournables.",
+      "content": "<h2>Pourquoi louer une voiture à Tanger ?</h2><p>Tanger est une ville dynamique où les transports en commun ne suffisent pas toujours pour explorer toutes les merveilles de la région. Louer une voiture vous donne la liberté totale de découvrir la côte méditerranéenne, les montagnes du Rif, ou encore les souks de la médina à votre propre rythme.</p><h2>Quel budget prévoir ?</h2><p>Les prix varient de <strong>200 MAD/jour</strong> pour une petite citadine à <strong>800 MAD/jour</strong> pour un SUV de luxe. Chez Norcoches, nous proposons des tarifs transparents sans frais cachés.</p><h2>Nos conseils pratiques</h2><ul><li>Réservez à l'avance, surtout en haute saison (juillet–août)</li><li>Vérifiez l'assurance incluse dans le tarif</li><li>Demandez la livraison à l'aéroport Ibn Battouta</li></ul><h2>Les meilleurs itinéraires depuis Tanger</h2><p>Avec une voiture de location, vous pouvez facilement rejoindre Chefchaouen (2h), Asilah (45min), Tétouan (1h) et les plages de M'diq en une journée.</p>",
+      "coverImage": "",
+      "author": "Norcoches",
+      "publishedAt": "2025-03-12",
+      "tags": [
+        "location voiture",
+        "tanger",
+        "guide",
+        "maroc"
+      ],
+      "metaTitle": "Location de Voiture à Tanger 2025 — Guide Complet | Norcoches",
+      "metaDescription": "Guide complet pour louer une voiture à Tanger. Prix, conseils et itinéraires. Norcoches : agence de location premium avec livraison aéroport.",
+      "published": true
+    }
+  ]
+}
