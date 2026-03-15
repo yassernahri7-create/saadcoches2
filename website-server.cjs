@@ -7,7 +7,7 @@ const { createCorsOptions, parsePort } = require('./backend/server-common.cjs');
 const { distDir, ensureStorage, readPublicData, uploadsDir } = require('./backend/site-store.cjs');
 
 const app = express();
-const port = parsePort(process.env.WEBSITE_PORT || process.env.PORT, 3003);
+const port = parsePort(process.env.WEBSITE_PORT || process.env.PORT, 3004);
 const devFrontendUrl = process.env.DEV_FRONTEND_URL || 'http://localhost:5173';
 const distIndex = path.join(distDir, 'index.html');
 const SITE_URL = process.env.SITE_URL || 'https://norcoches.com';
