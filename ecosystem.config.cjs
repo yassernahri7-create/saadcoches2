@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: 'nour-coches',
+            name: 'saad-coches',
             script: './backend/server.cjs',
             instances: 1,
             autorestart: true,
