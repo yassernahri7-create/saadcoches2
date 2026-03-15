@@ -16,7 +16,7 @@ const {
 const { distDir, ensureStorage, readData, readPublicData, resetToBundledData, uploadsDir, writeData } = require('./backend/site-store.cjs');
 
 const app = express();
-const port = parsePort(process.env.ADMIN_PORT || process.env.PORT, 3104);
+const port = parsePort(process.env.ADMIN_PORT || process.env.PORT, 3109);
 const devFrontendUrl = process.env.DEV_FRONTEND_URL || 'http://localhost:5173';
 const distIndex = path.join(distDir, 'index.html');
 const upload = createUploadMiddleware();
