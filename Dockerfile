@@ -24,12 +24,12 @@ FROM runtime-base AS website-production
 ENV PORT=3003
 ENV DATA_FILE=/app/storage/db.json
 ENV UPLOADS_DIR=/app/storage/uploads
-EXPOSE 3003
+EXPOSE 3004
 CMD ["node", "website-server.cjs"]
 
 FROM runtime-base AS admin-production
 ENV PORT=3103
 ENV DATA_FILE=/app/storage/db.json
 ENV UPLOADS_DIR=/app/storage/uploads
-EXPOSE 3103
+EXPOSE 3104
 CMD ["node", "admin-server.cjs"]
